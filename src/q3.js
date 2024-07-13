@@ -20,8 +20,10 @@ const dog = {
   breed: 'dog',
 };
 
-const cat = dog; // Modify this line
+const cat = {
+  ...dog,
+};
 
 cat.breed = 'cat';
 
-console.log('dog', dog); // If success, prints "dog { breed: 'dog' }"
+console.log('dog', dog);

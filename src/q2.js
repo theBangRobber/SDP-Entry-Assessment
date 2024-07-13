@@ -19,7 +19,7 @@ function addPatient(patientName) {
 
 // Task 3
 function listPatient() {
-  console.log(patientName);
+  console.log(patientNames);
 }
 
 addPatient('John');
