@@ -5,7 +5,7 @@
     - You can refer to this link: https://www.w3schools.com/js/js_modules.asp to check how imports and modules are done.
 */
 
-// Task 1: Add code here
+import { print } from './external.js';
 
 // Do not change the code below
 document.querySelector('#test').innerHTML = print();
